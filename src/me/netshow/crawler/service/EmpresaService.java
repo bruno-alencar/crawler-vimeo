@@ -80,6 +80,8 @@ public class EmpresaService {
 				}else{
 					empresa.setVideosNumber(1);
 				}
+				
+			empresa.setLocation("vimeo");
 			empresas.add(empresa);
 		}
 		return empresas;
